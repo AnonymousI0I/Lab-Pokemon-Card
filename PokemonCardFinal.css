@@ -1,0 +1,191 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+header{
+  position: fixed;
+  }
+
+.border {
+  width:400px;
+  height:500px;
+  border: 15px solid #969696;
+  border-radius: 25px;
+  position: relative;
+  left: 30px;
+  background-image: url(https://img00.deviantart.net/0614/i/2012/106/a/e/classic_pkmn_tcg_texture_pack_by_flamingclaw-d4wcj31.png);
+}
+
+.fire {
+  width:20px;
+  height:20px;
+}
+
+.picture {
+  background-color: white;
+  position: absolute;
+  left: 15px;
+  top: 8%;
+  border: 5px solid #F8F0FC;
+
+}
+
+.name {
+  position: absolute;
+  left: 45px;
+  top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.power {
+  position: absolute;
+  top: 7px;
+  left: 335px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Arial;
+   }
+
+.HP {
+  position: relative;
+  left: 320px;
+  top: 20px;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: Arial;
+}
+
+.topRightSymbol{
+ width:20px;
+  height:20px;
+  position: absolute;
+  left: 365px;
+  top: 10px;
+}
+
+.pictureDescriptionContainer {
+  position: relative;
+  top: 52%;
+  width: 350px;
+  height: 8px;
+  background-color: #E5DFE7;
+  border: 5px solid #F8F0FC;
+  border-radius: 0px 0px 15px 15px;
+  margin: auto;
+  padding: 5px;
+}
+
+.pictureDescriptionText {
+  color: #5a585a;
+  font-family: Arial;
+  font-size: 10px;
+  margin: 0px;
+  text-align: center;
+}
+
+.attackLine {
+  width: 375px;
+  height: 40px;
+  position: relative;
+  top: 60%;
+  margin: 10px;
+}
+
+.attackLabel {
+  position: absolute;
+  left: 35%;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.damage {
+  position: absolute;
+  left: 92%;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.attackDescription {
+  font-family: Arial;
+  font-size: 12px;
+  margin: 0px;
+  margin-left:8px;
+}
+
+.informationBox1{
+  width: 230px;
+  height: 20px;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 8%;
+  left: -6px;
+  background-image: linear-gradient(#F5F7FA, #b7b1b9);
+}
+
+.informationText1{
+  font-family: Arial;
+  position: relative;
+  font-size: 10px;
+  left: 5%;
+}
+
+.informationText2{
+  font-family: Arial;
+  position: relative;
+  left: 13%;
+}
+
+.informationText3{
+  font-family: Arial;
+  position: relative;
+  font-size: 10px;
+  left: 15%
+}
+
+.water{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 3px;
+  left: 30px;
+}
+
+.informationBox2{
+  width: 150px;
+  height: 20px;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 8%;
+  right: -6px;
+  background-image: linear-gradient(#F5F7FA, #b7b1b9);
+}
+
+.informationText4{
+  font-family: Arial;
+  position: relative;
+  font-size: 10px;
+  left: 10%;
+}
+
+.energy{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 3px;
+  left: 15px;
+}
+
+footer {
+    position: relative;
+    font-size: 8.7px;
+    top: -40px;
+    left: 220px;
+    height: 5px;
+    width: 200px;
+    font-family: Ariel;
+}
